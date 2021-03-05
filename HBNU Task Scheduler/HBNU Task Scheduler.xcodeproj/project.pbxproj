@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8C0FD025F2594400A02262 /* HBNU_Task_SchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C0FCF25F2594400A02262 /* HBNU_Task_SchedulerApp.swift */; };
+		DE8C0FD225F2594400A02262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C0FD125F2594400A02262 /* ContentView.swift */; };
+		DE8C0FD425F2594600A02262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8C0FD325F2594600A02262 /* Assets.xcassets */; };
+		DE8C0FD725F2594600A02262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8C0FD625F2594600A02262 /* Preview Assets.xcassets */; };
+		DE8C0FE225F2594700A02262 /* HBNU_Task_SchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C0FE125F2594700A02262 /* HBNU_Task_SchedulerTests.swift */; };
+		DE8C0FED25F2594700A02262 /* HBNU_Task_SchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C0FEC25F2594700A02262 /* HBNU_Task_SchedulerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE8C0FDE25F2594700A02262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8C0FC425F2594400A02262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8C0FCB25F2594400A02262;
+			remoteInfo = "HBNU Task Scheduler";
+		};
+		DE8C0FE925F2594700A02262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8C0FC425F2594400A02262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8C0FCB25F2594400A02262;
+			remoteInfo = "HBNU Task Scheduler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE8C0FCC25F2594400A02262 /* HBNU Task Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HBNU Task Scheduler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8C0FCF25F2594400A02262 /* HBNU_Task_SchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBNU_Task_SchedulerApp.swift; sourceTree = "<group>"; };
+		DE8C0FD125F2594400A02262 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE8C0FD325F2594600A02262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8C0FD625F2594600A02262 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE8C0FD825F2594600A02262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8C0FDD25F2594700A02262 /* HBNU Task SchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HBNU Task SchedulerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8C0FE125F2594700A02262 /* HBNU_Task_SchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBNU_Task_SchedulerTests.swift; sourceTree = "<group>"; };
+		DE8C0FE325F2594700A02262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8C0FE825F2594700A02262 /* HBNU Task SchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HBNU Task SchedulerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8C0FEC25F2594700A02262 /* HBNU_Task_SchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBNU_Task_SchedulerUITests.swift; sourceTree = "<group>"; };
+		DE8C0FEE25F2594700A02262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8C0FC925F2594400A02262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C0FDA25F2594700A02262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C0FE525F2594700A02262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8C0FC325F2594400A02262 = {
+			isa = PBXGroup;
+			children = (
+				DE8C0FCE25F2594400A02262 /* HBNU Task Scheduler */,
+				DE8C0FE025F2594700A02262 /* HBNU Task SchedulerTests */,
+				DE8C0FEB25F2594700A02262 /* HBNU Task SchedulerUITests */,
+				DE8C0FCD25F2594400A02262 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8C0FCD25F2594400A02262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C0FCC25F2594400A02262 /* HBNU Task Scheduler.app */,
+				DE8C0FDD25F2594700A02262 /* HBNU Task SchedulerTests.xctest */,
+				DE8C0FE825F2594700A02262 /* HBNU Task SchedulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8C0FCE25F2594400A02262 /* HBNU Task Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C0FCF25F2594400A02262 /* HBNU_Task_SchedulerApp.swift */,
+				DE8C0FD125F2594400A02262 /* ContentView.swift */,
+				DE8C0FD325F2594600A02262 /* Assets.xcassets */,
+				DE8C0FD825F2594600A02262 /* Info.plist */,
+				DE8C0FD525F2594600A02262 /* Preview Content */,
+			);
+			path = "HBNU Task Scheduler";
+			sourceTree = "<group>";
+		};
+		DE8C0FD525F2594600A02262 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C0FD625F2594600A02262 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE8C0FE025F2594700A02262 /* HBNU Task SchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C0FE125F2594700A02262 /* HBNU_Task_SchedulerTests.swift */,
+				DE8C0FE325F2594700A02262 /* Info.plist */,
+			);
+			path = "HBNU Task SchedulerTests";
+			sourceTree = "<group>";
+		};
+		DE8C0FEB25F2594700A02262 /* HBNU Task SchedulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C0FEC25F2594700A02262 /* HBNU_Task_SchedulerUITests.swift */,
+				DE8C0FEE25F2594700A02262 /* Info.plist */,
+			);
+			path = "HBNU Task SchedulerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8C0FCB25F2594400A02262 /* HBNU Task Scheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8C0FF125F2594700A02262 /* Build configuration list for PBXNativeTarget "HBNU Task Scheduler" */;
+			buildPhases = (
+				DE8C0FC825F2594400A02262 /* Sources */,
+				DE8C0FC925F2594400A02262 /* Frameworks */,
+				DE8C0FCA25F2594400A02262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HBNU Task Scheduler";
+			productName = "HBNU Task Scheduler";
+			productReference = DE8C0FCC25F2594400A02262 /* HBNU Task Scheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE8C0FDC25F2594700A02262 /* HBNU Task SchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8C0FF425F2594700A02262 /* Build configuration list for PBXNativeTarget "HBNU Task SchedulerTests" */;
+			buildPhases = (
+				DE8C0FD925F2594700A02262 /* Sources */,
+				DE8C0FDA25F2594700A02262 /* Frameworks */,
+				DE8C0FDB25F2594700A02262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8C0FDF25F2594700A02262 /* PBXTargetDependency */,
+			);
+			name = "HBNU Task SchedulerTests";
+			productName = "HBNU Task SchedulerTests";
+			productReference = DE8C0FDD25F2594700A02262 /* HBNU Task SchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE8C0FE725F2594700A02262 /* HBNU Task SchedulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8C0FF725F2594700A02262 /* Build configuration list for PBXNativeTarget "HBNU Task SchedulerUITests" */;
+			buildPhases = (
+				DE8C0FE425F2594700A02262 /* Sources */,
+				DE8C0FE525F2594700A02262 /* Frameworks */,
+				DE8C0FE625F2594700A02262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8C0FEA25F2594700A02262 /* PBXTargetDependency */,
+			);
+			name = "HBNU Task SchedulerUITests";
+			productName = "HBNU Task SchedulerUITests";
+			productReference = DE8C0FE825F2594700A02262 /* HBNU Task SchedulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8C0FC425F2594400A02262 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DE8C0FCB25F2594400A02262 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					DE8C0FDC25F2594700A02262 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DE8C0FCB25F2594400A02262;
+					};
+					DE8C0FE725F2594700A02262 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DE8C0FCB25F2594400A02262;
+					};
+				};
+			};
+			buildConfigurationList = DE8C0FC725F2594400A02262 /* Build configuration list for PBXProject "HBNU Task Scheduler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8C0FC325F2594400A02262;
+			productRefGroup = DE8C0FCD25F2594400A02262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8C0FCB25F2594400A02262 /* HBNU Task Scheduler */,
+				DE8C0FDC25F2594700A02262 /* HBNU Task SchedulerTests */,
+				DE8C0FE725F2594700A02262 /* HBNU Task SchedulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8C0FCA25F2594400A02262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C0FD725F2594600A02262 /* Preview Assets.xcassets in Resources */,
+				DE8C0FD425F2594600A02262 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C0FDB25F2594700A02262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C0FE625F2594700A02262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8C0FC825F2594400A02262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C0FD225F2594400A02262 /* ContentView.swift in Sources */,
+				DE8C0FD025F2594400A02262 /* HBNU_Task_SchedulerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C0FD925F2594700A02262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C0FE225F2594700A02262 /* HBNU_Task_SchedulerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C0FE425F2594700A02262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C0FED25F2594700A02262 /* HBNU_Task_SchedulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE8C0FDF25F2594700A02262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8C0FCB25F2594400A02262 /* HBNU Task Scheduler */;
+			targetProxy = DE8C0FDE25F2594700A02262 /* PBXContainerItemProxy */;
+		};
+		DE8C0FEA25F2594700A02262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8C0FCB25F2594400A02262 /* HBNU Task Scheduler */;
+			targetProxy = DE8C0FE925F2594700A02262 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE8C0FEF25F2594700A02262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE8C0FF025F2594700A02262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8C0FF225F2594700A02262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HBNU Task Scheduler/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HBNU Task Scheduler/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enfycius.HBNU-Task-Scheduler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE8C0FF325F2594700A02262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HBNU Task Scheduler/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HBNU Task Scheduler/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enfycius.HBNU-Task-Scheduler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE8C0FF525F2594700A02262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HBNU Task SchedulerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enfycius.HBNU-Task-SchedulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBNU Task Scheduler.app/HBNU Task Scheduler";
+			};
+			name = Debug;
+		};
+		DE8C0FF625F2594700A02262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HBNU Task SchedulerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enfycius.HBNU-Task-SchedulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBNU Task Scheduler.app/HBNU Task Scheduler";
+			};
+			name = Release;
+		};
+		DE8C0FF825F2594700A02262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HBNU Task SchedulerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enfycius.HBNU-Task-SchedulerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HBNU Task Scheduler";
+			};
+			name = Debug;
+		};
+		DE8C0FF925F2594700A02262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HBNU Task SchedulerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enfycius.HBNU-Task-SchedulerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HBNU Task Scheduler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8C0FC725F2594400A02262 /* Build configuration list for PBXProject "HBNU Task Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C0FEF25F2594700A02262 /* Debug */,
+				DE8C0FF025F2594700A02262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8C0FF125F2594700A02262 /* Build configuration list for PBXNativeTarget "HBNU Task Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C0FF225F2594700A02262 /* Debug */,
+				DE8C0FF325F2594700A02262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8C0FF425F2594700A02262 /* Build configuration list for PBXNativeTarget "HBNU Task SchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C0FF525F2594700A02262 /* Debug */,
+				DE8C0FF625F2594700A02262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8C0FF725F2594700A02262 /* Build configuration list for PBXNativeTarget "HBNU Task SchedulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C0FF825F2594700A02262 /* Debug */,
+				DE8C0FF925F2594700A02262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8C0FC425F2594400A02262 /* Project object */;
+}
