@@ -13,6 +13,7 @@
 		DE8C0FD725F2594600A02262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8C0FD625F2594600A02262 /* Preview Assets.xcassets */; };
 		DE8C0FE225F2594700A02262 /* HBNU_Task_SchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C0FE125F2594700A02262 /* HBNU_Task_SchedulerTests.swift */; };
 		DE8C0FED25F2594700A02262 /* HBNU_Task_SchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C0FEC25F2594700A02262 /* HBNU_Task_SchedulerUITests.swift */; };
+		DE8C0FFE25F27E5900A02262 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C0FFD25F27E5900A02262 /* KeyboardResponder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		DE8C0FE825F2594700A02262 /* HBNU Task SchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HBNU Task SchedulerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8C0FEC25F2594700A02262 /* HBNU_Task_SchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBNU_Task_SchedulerUITests.swift; sourceTree = "<group>"; };
 		DE8C0FEE25F2594700A02262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8C0FFD25F27E5900A02262 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				DE8C0FD325F2594600A02262 /* Assets.xcassets */,
 				DE8C0FD825F2594600A02262 /* Info.plist */,
 				DE8C0FD525F2594600A02262 /* Preview Content */,
+				DE8C0FFD25F27E5900A02262 /* KeyboardResponder.swift */,
 			);
 			path = "HBNU Task Scheduler";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				DE8C0FD225F2594400A02262 /* ContentView.swift in Sources */,
 				DE8C0FD025F2594400A02262 /* HBNU_Task_SchedulerApp.swift in Sources */,
+				DE8C0FFE25F27E5900A02262 /* KeyboardResponder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
